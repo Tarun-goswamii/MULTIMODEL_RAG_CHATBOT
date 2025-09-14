@@ -1,0 +1,46 @@
+# Multi-Modal RAG Chatbot Requirements
+# Complete dependencies for all features
+
+# Core Framework
+flask==2.3.3
+flask-cors==4.0.0
+python-dotenv==1.0.0
+
+# AI/ML Core
+google-generativeai==0.3.2
+sentence-transformers==2.2.2
+numpy==1.24.3
+scikit-learn==1.3.2
+
+# Vector Database
+qdrant-client==1.6.9
+
+# Multi-Modal Processing
+# Audio Processing
+SpeechRecognition==3.10.0
+pydub==0.25.1
+pyaudio==0.2.11
+
+# Video Processing
+opencv-python==4.8.1.78
+
+# Image Processing
+Pillow==10.1.0
+pytesseract==0.3.10
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+
+# Web Framework
+werkzeug==2.3.7
+
+# Utilities
+asyncio
+threading
+pathlib
+datetime
+base64
+tempfile
+dataclasses
+logging
